@@ -75,7 +75,7 @@ The platform uses Google Gemini AI to generate context-aware interview questions
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Mayank332k/PrepMe.git
+git clone https://github.com/Rithesh577/PrepMe-backend.git
 cd PrepMe
 ```
 
