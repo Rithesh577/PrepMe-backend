@@ -27,6 +27,7 @@ const allowedOrigins = [
   "https://grappling-appease-scraggly.ngrok-free.dev",
   "https://prep-me-mu.vercel.app",
   process.env.FRONTEND_URL,
+  process.env.CLIENT_URL,
 ].filter(Boolean);
 
 app.use(
