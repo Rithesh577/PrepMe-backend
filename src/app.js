@@ -39,8 +39,9 @@ const allowedOrigins = [
   "http://10.239.241.138:5173",
   "https://grappling-appease-scraggly.ngrok-free.dev",
   "https://prep-me-mu.vercel.app",
+  "https://prepme.vercel.app",
   process.env.FRONTEND_URL,
-].filter(Boolean);
+].filter(Boolean).map(url => url.replace(/\/+$/, ""));
 
 app.use(
   cors({
